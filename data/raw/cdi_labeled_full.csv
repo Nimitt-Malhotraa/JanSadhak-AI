@@ -1,0 +1,398 @@
+﻿id,complaint_text,department,urgency,language,source,location_mentioned
+cdi001,"Main road par huge pothole hai accident bhi ho gaya 2 gaadi ka, 27th Main HSR",roads,high,hinglish,synthetic_edited,yes
+cdi002,"Need immediate anti-larval fogging, water accumulated on empty plot 8th cross",health,medium,english,synthetic,yes
+cdi003,"Very deep gaddha on main road sector 7, repair urgently",roads,low,hinglish,synthetic,yes
+cdi004,"Paani bhara hua hai park ke paas, bohot macchar ho rahe hain dengue risk",health,medium,hinglish,synthetic,no
+cdi005,"No light on 100 feet road near pillar 108, please repair bulb quickly",electricity,low,english,synthetic,yes
+cdi006,"Asphalt washed away, giant pothole causing major traffic slowdown 27th main",roads,medium,english,synthetic,yes
+cdi007,"Ward 2 gali mein sewer overflow ho raha hai, badbu se rehna mushkil ho gaya",water_sewage,medium,hinglish,synthetic,yes
+cdi008,"Sewer line block ho gayi hai, dirty black water overflowing on road Ward 2",water_sewage,medium,hinglish,synthetic,yes
+cdi009,"Main sewer pipeline leakage in ward 3 near general store, road flooded with sewage",water_sewage,medium,english,synthetic_edited,yes
+cdi010,Heavy mosquito swarm due to open stagnant water pond near Malleshwaram park,health,medium,english,synthetic,yes
+cdi011,"Rotting solid waste lying open on street, terrible smell please clear",garbage,medium,english,synthetic,no
+cdi012,"Safai karmachari nahi aa rahe, huge garbage heap on main corner Bellandur",garbage,medium,hinglish,synthetic,yes
+cdi013,"Please send fogging team, high risk of malaria in our lane 8th cross",health,medium,english,synthetic,yes
+cdi014,"Road damaged with massive crater near HSR petrol pump, please patch",roads,low,english,synthetic,yes
+cdi015,Dark spot due to dead streetlight bulb near pillar 108 Indiranagar,electricity,low,english,synthetic,yes
+cdi016,"Street light 4 din se band hai near metro pillar 108, pura andhera hai",electricity,medium,hinglish,synthetic,yes
+cdi017,"Dangerous deep pothole on 27th main HSR layout, bikes slipping daily",roads,high,english,synthetic,yes
+cdi018,Waterlogged plot creating huge mosquito menace for all residents,health,medium,english,synthetic,no
+cdi019,Bhaiya sewer ka ganda paani sadak pe beh raha hai near Sharma General Store,water_sewage,medium,hinglish,synthetic,yes
+cdi020,dogs bhot zyada ho gye hain pls help,other,low,hinglish,own,no
+cdi021,"Gutter overflow ho raha hai, please jaldi safai karwao accident ho sakta hai",water_sewage,medium,hinglish,synthetic,no
+cdi022,Road light khamba not working since 4 days near pillar 108 Indiranagar,electricity,medium,hinglish,synthetic,yes
+cdi023,"Bada gaddha ban gaya hai road pe, two-wheeler gir gaya buri tareeke se",roads,high,hinglish,own,no
+cdi024,"Kachra gadi nahi aayi 3 din se, community bin overflowing with waste",garbage,medium,hinglish,synthetic,no
+cdi025,"Bhaiya streetlights are off at night, very dark and unsafe near metro pillar",electricity,medium,hinglish,synthetic,no
+cdi026,Urgent: Sewage drain chocked and stinking badly opposite Malhotra store,water_sewage,medium,english,synthetic_edited,yes
+cdi027,"Waste collection truck missing since 3 days, garbage piling up",garbage,medium,english,synthetic,no
+cdi028,"Stagnant waterlogging after rain, mosquito breeding heavy near 8th cross park",health,medium,english,synthetic,yes
+cdi029,"Bohot kachra jama ho gaya hai corner pe, flies and mosquitoes everywhere",garbage,medium,hinglish,synthetic,no
+cdi030,Streetlight pole sparking and turned completely off near metro line,electricity,high,english,synthetic,no
+cdi031,"Namaste, aaj subah park ke paas awara kutton ne do logon ko kaat liya (Phase 2, Vikas Puri)",other,high,hinglish,synthetic,yes
+cdi032,"Ration card is pending for 5 months, every time the office gives a new excuse",pension_govt,high,english,synthetic,no
+cdi033,"भगत सिंह कॉलोनी: रोज मेरे गेट के सामने गाड़ियां खड़ी रहती हैं, अपनी गाड़ी निकालने में दिक्कत होती है",other,low,hindi,synthetic,yes
+cdi034,"Basti mein kai parivaron ko jaundice aur dast ho rahe hain, koi health team nahi aayi (Indira Colony)",health,high,hinglish,synthetic,yes
+cdi035,"Ghar mein 4 din se paani nahi hai, buzurg bohot pareshan hain",water_sewage,high,hinglish,synthetic,no
+cdi036,Park ki benches tooti hui hain aur ghaas hafton se nahi kati (Lajpat Nagar),other,low,hinglish,synthetic,yes
+cdi037,"gali mein awara kutte bhaunkte aur sote rehte hain, unhe shift karwa do - block c, janakpuri",other,low,hinglish,synthetic,yes
+cdi038,"Block C, Janakpuri: Illegal liquor is being sold from a shop in our lane and drunk men create trouble",police,medium,english,synthetic,yes
+cdi039,"सेक्टर 14: स्पीड ब्रेकर पर पेंट या रिफ्लेक्टर लगवा दें, दिखाई नहीं देता",roads,low,hindi,synthetic,yes
+cdi040,"कृपया मेरे मीटर की रीडिंग जांच लें, बिल पिछले महीने से थोड़ा ज्यादा आया है, नेहरू पार्क के पास",electricity,low,hindi,synthetic,yes
+cdi041,"Sir, my bike was stlen from outside my house last night, no CCTV in the lane - Sector 9",police,medium,english,synthetic,yes
+cdi042,"Colony mein dengue ke cases badh rahe hain, do bachche hospital mein admit hain (Patel Nagar)",health,high,hinglish,synthetic,yes
+cdi043,"Rtion card ke liye 5 mahine pele apply kiya tha, ab tak nahi mila, sasta anaaj nahi mil pa raha, Civil Lines",pension_govt,high,hinglish,synthetic,yes
+cdi044,Water has collected in the empty plot next to our house and mosquitoes are everywhere (Bhagat Singh Colony),health,medium,english,synthetic,yes
+cdi045,"a big sinkhole has opened in the middle of the road after rain, cars cannot pass",roads,high,english,synthetic,no
+cdi046,Chai ki tapri ke paas roz raat nashe mein kuch log gaali galoch aur ladai karte hain,police,medium,hinglish,synthetic,no
+cdi047,"Padosi ke ghar mein abhi chor ghuse hue hain, Saraswati Vihar",police,high,hinglish,synthetic,yes
+cdi048,"Dirty brown water is coming from the tap for 8 days, it smells bad - Subhash Chowk",water_sewage,medium,english,synthetic,yes
+cdi049,"Subhash Chowk: Barish ke baad main road ka bijli ka khamba bahut jhuk gaya hai, kabhi bhi gir sakta hai",electricity,high,hinglish,synthetic,yes
+cdi050,"LAJPAT NAGAR: HELP CHAHIYE, MOHALLE MEIN EK ISSUE HAI!!!",other,low,hinglish,synthetic,yes
+cdi051,Power has been out for 9 hours now. Nobody is picking up the complaint number,electricity,medium,english,synthetic,no
+cdi052,"Kacra gadi 1 din se nahi aayi, dustbin bharne laga hai - Tilak Nagar",garbage,low,hinglish,synthetic,yes
+cdi053,"Property mutation ki file 6 mahine se municipal office mein atki hai, ghar bech nahi pa raha",pension_govt,high,hinglish,synthetic,no
+cdi054,Girls hostel ke paas roz shaam ko ek group ladkiyon ko chhedta hai aur follow karta hai,police,high,hinglish,synthetic,no
+cdi055,"Gandhi Nagar: Kone ke paas paani ki pipe mein chhota leak hai, boond boond paani tapak raha hai",water_sewage,low,hinglish,synthetic,yes
+cdi056,"colony mein 5 din se bilkul light nahi hai, buzurg aur bachche bohot pareshan hain",electricity,high,hinglish,synthetic,no
+cdi057,"5 din se garbage collection band hai, poori gali mein badbu hai aur jaanwar bikher rahe hain, Saraswati Vihar",garbage,medium,hinglish,synthetic,yes
+cdi058,"sir, is mahine free health checkup camp kahan lag raha hai bata dijiye",health,low,hinglish,synthetic,no
+cdi059,naali 3 din se jam hai aur ganda pani gali mein beh raha hai,water_sewage,medium,hinglish,synthetic,no
+cdi060,"sewer is overflowing on the road in front of our gate, the smell is unbearable - shastri nagar",water_sewage,medium,english,synthetic,yes
+cdi061,"PHC mein 6 din se koi doctor nahi hai, sirf compounder dawai deta hai - Sector 14",health,medium,hinglish,synthetic,yes
+cdi062,Basic medicines like paracetamol and BP tablets are not available at the government dispensary (Kalyan Nagar),health,medium,english,synthetic,yes
+cdi063,"garbage wali gaadi 1 din se nahi aa rahi, thoda kachra jama ho gaya",garbage,low,hinglish,synthetic,no
+cdi064,College gate ke bahar roz bike wale ladke ladkiyon ko pareshan karte hain aur peecha karte hain (Shastri Nagar),police,high,hinglish,synthetic,yes
+cdi065,"Broken high tension wire lying on the footpath, people are passing by it, Gali no 5, Rajendra Nagar",electricity,high,english,synthetic,yes
+cdi066,"जन्म प्रमाणपत्र के लिए 5 दिन पहले आवेदन किया था, बस अपेक्षित तारीख जाननी है, अशोक विहार",pension_govt,low,hindi,synthetic,yes
+cdi067,"4 दिन से कचरा नहीं उठाया गया है, कोने पर ढेर लग गया है",garbage,medium,hindi,synthetic,no
+cdi068,"School ke paas kachre ke dher mein badi aag lagi hai, bachche khaans rahe hain (Bhagat Singh Colony)",garbage,high,hinglish,synthetic,yes
+cdi069,"गली के बीच में मैनहोल का ढक्कन गायब है, बच्चा या गाय गिर सकती है, सरस्वती विहार",water_sewage,high,hindi,synthetic,yes
+cdi070,Roz raat ek shak wali gaadi society ke bahar khadi hoti hai aur uske andar log baithe rehte hain (Patel Nagar),police,medium,hinglish,synthetic,yes
+cdi071,"Poori road tooti hui hai, patthar bikhre hain, gaadiyan bahut dheere nikalti hain, Green Park",roads,medium,hinglish,synthetic,yes
+cdi072,"Community bin khali nahi hua, uske aas paas kachra phaila hua hai",garbage,medium,hinglish,synthetic,no
+cdi073,"Indira Colony: Gate ke saamne kisi ne truck bhar malba daal diya, koi uthata nahi",garbage,medium,hinglish,synthetic,yes
+cdi074,"Sewer is overflowing on the road in front of our gate, the smell is unbearable - Sai Colony",water_sewage,medium,english,synthetic,yes
+cdi075,civil lines: raat ko aksar nashe mein ladke gali mein chillate hain aur bottles fenkte hain,police,medium,hinglish,synthetic,yes
+cdi076,"cycle chalate bachce gaddhe mein gir kar chotil ho gaya, bahut khatarnaak hai, sector 14",roads,high,hinglish,synthetic,yes
+cdi077,"Sir, tilak Nagar: One streetlight in our lane has not been working for 1 day, please replace the bulb",electricity,low,english,synthetic,yes
+cdi078,Dirty water is coming in taps and several children in our lane have fallen sick with loose motions - near Shiv Mandir,water_sewage,high,english,synthetic,yes
+cdi079,"Seene mein dard ke emergency mareez ke liye 40 minute baad bhi ambulance nahi aayi, Lajpat Nagar",health,high,hinglish,synthetic,yes
+cdi080,"bhaiya gali mein mara hua jaanwar pada hai, badbu phail rahi hai",garbage,medium,hinglish,synthetic,no
+cdi081,"बारिश के बाद सड़क पर बहुत पानी भर गया है, गाड़ियां फंस रही हैं",water_sewage,medium,hindi,synthetic,no
+cdi082,"कोने का सार्वजनिक डस्टबिन ओवरफ्लो हो रहा है और कचरा सड़क पर आ गया है, वार्ड 12",garbage,medium,hindi,synthetic,yes
+cdi083,"Too many mosquitoes in our lane for 7 days, nobody has come for fogging (Subhash Chowk)",health,medium,english,synthetic,yes
+cdi084,"poori gali mein tar nahi bacha, sirf patthar aur mitti hai, gaadiyon ko double time lagta hai - lajpat nagar",roads,medium,hinglish,synthetic,yes
+cdi085,"Sir, child on a cycle fell in a pothole and got hurt, this is dangerous - near Shiv Mandir",roads,high,english,synthetic,yes
+cdi086,Reception staff speaks rudely to patients (MG Road),health,low,english,synthetic,yes
+cdi087,"Mere ghar ke bahar speed breaker bohot ooncha hai, height kam karwa do",roads,low,hinglish,synthetic,no
+cdi088,"सिविल लाइंस: गली की नाली प्लास्टिक से थोड़ी जाम है, पानी धीरे जा रहा है पर ओवरफ्लो नहीं है",water_sewage,low,hindi,synthetic,yes
+cdi089,"namaste, colony mein 4 din se bilkul light nahi hai, buzurg aur bachche bohot pareshan hain - near shiv mandir",electricity,high,hinglish,synthetic,yes
+cdi090,"near Nehru Park: Pipeline ki khudai ke baad road 3 hafte se kharab padi hai, traffic bohot affect ho raha hai",roads,medium,hinglish,synthetic,yes
+cdi091,"streetlights 4 din se band hain, kal raat andhere mein ek buzurg gir gaye aur chot lagi. jaldi lights chalu karo, shasri nagar",electricity,high,hinglish,synthetic,yes
+cdi092,"Gali mein 10 din se kachra pada hai, makkhi aur chuhe bohot ho gaye hain",garbage,medium,hinglish,synthetic,no
+cdi093,"HELLO, THE GARBAGE TRUCK HAS NOT COME FOR 4 DAYS, RESIDENTS ARE THROWING WASTE ON THE ROAD (PHASE 2, VIKAS PURI)!!!",garbage,medium,english,synthetic,yes
+cdi094,"Ghar ke paas road mein gehra gaddha hai, patching karwa do",roads,low,hinglish,synthetic,no
+cdi095,Waste has not been collected from our lane for 2 days,garbage,low,english,synthetic,no
+cdi096,"sai colony: kal se paani nahi aa raha, please check karo",water_sewage,medium,hinglish,synthetic,yes
+cdi097,सिटी मॉल के पास: सरकारी अस्पताल के प्रतीक्षा क्षेत्र के शौचालय साफ नहीं हैं,health,low,hindi,synthetic,yes
+cdi098,"Park ke paas 17 din se kachra nhi uthaya, badbu aur makkhiyan boot hin",garbage,medium,hinglish,synthetic,no
+cdi099,"Community bin khali nahi hua, uske aas paas kachra phaila hua hai, Tilak Nagar",garbage,medium,hinglish,synthetic,yes
+cdi100,Park ki benches tooti hui hain aur ghaas hafton se nahi kati,other,low,hinglish,synthetic,no
+cdi101,"Gali ke beech manhole ka dhakkan gayab hai, bachcha ya gaay gir sakti hai - Block C, Janakpuri",water_sewage,high,hinglish,synthetic,yes
+cdi102,"Ghar ke paas wali streetlight 2 din se nahi jal rahi, please dekh lo, near Nehru Park",electricity,low,hinglish,synthetic,yes
+cdi103,"हमारे ब्लॉक के पास पानी रुका हुआ है, डेंगू-मलेरिया का खतरा है, अभी तक कोई बीमार नहीं है, फॉगिंग करवाएं, ब्लॉक सी, जनकपुरी",health,medium,hindi,synthetic,yes
+cdi104,"Kachra gadi 5 din se nahi aayi, log road par kachra fenk rahe hain (Tilak Nagar)",garbage,medium,hinglish,synthetic,yes
+cdi105,bhaiya college gate ke bahar roz bike wle ladke ladkiyon ko pareshan karte hain aur peecha karte hain (ashok vihar),police,high,hinglish,synthetic,yes
+cdi106,"Bhaiya cable ke kaam ke liye road khodi thi, 7 hafte ho gaye repair nahi hui, dhool aur jam rehta hai",roads,medium,hinglish,synthetic,no
+cdi107,ashok vihar: khali plot mein roz kachra jalaya ja raha hai aur dhuan ghar mein aa raha hai,garbage,medium,hinglish,synthetic,yes
+cdi108,Deep pothole damaged the tyre and rim of my car yesterday,roads,medium,english,synthetic,no
+cdi109,"सेक्टर 14: 5 दिन से नल में पानी की एक बूंद नहीं आई है, रोज टैंकर मंगवाना पड़ रहा है",water_sewage,high,hindi,synthetic,yes
+cdi110,"abhi padosi ki dukaan ka taala kuch log tod rahe hain, police bhejo",police,high,hinglish,synthetic,no
+cdi111,"market ke paas road kinare mari hui gaay pari hai, hawa do - near shiv mandir!!!",garbage,medium,hinglish,synthetic,yes
+cdi112,Secor 14: Transformer in our lane made a loud blast and is on fre,electricity,high,english,synthetic,yes
+cdi113,"Padosi 9 din se raat ko bahut tez music bajate hain, neend nahi aati (Sector 14)",police,medium,hinglish,synthetic,yes
+cdi114,Bill of Rs 23500 came this month which is wrong. A disconnection notice has also been sent (Kalyan Nagar),electricity,medium,english,synthetic,yes
+cdi115,"बस स्टैंड के पास: जन्म प्रमाणपत्र के लिए 8 दिन पहले आवेदन किया था, बस अपेक्षित तारीख जाननी है",pension_govt,low,hindi,synthetic,yes
+cdi116,"Tilak Nagar: 2 din se supply ke paani mein sewage jaisi smell hai, peene layak nahi",water_sewage,medium,hinglish,synthetic,yes
+cdi117,near bus stand: raat ko aksar nashe mein ladke gali mein chillate hain aur bottles fenkte hain,police,medium,hinglish,synthetic,yes
+cdi118,"Namaste, gali mein 13 din se kachra pada hai, makkhi aur chuhe bohot ho gaye hain, near Nehru Park",garbage,medium,hinglish,synthetic,yes
+cdi119,Someone dumped a truck load of rubble in front of our gate and nobody is clearing it (Gandhi Nagar),garbage,medium,english,synthetic,yes
+cdi120,"Tilak Nagar: CHC mein dawai khatam hai, bahar se kharidne ko bol rahe hain",health,medium,hinglish,synthetic,yes
+cdi121,"गली नंबर 5, राजेंद्र नगर: कल रात से घरों के अंदर सीवर का पानी घुस रहा है, ग्राउंड फ्लोर में पानी भर गया है",water_sewage,high,hindi,synthetic,yes
+cdi122,"Sir, ration card ki application 2 mahine se pending hai, status mein verification dikha raha hai",pension_govt,medium,hinglish,synthetic,no
+cdi123,"Kal raat shaadi mein 10 baje ke baad bhi loud speaker bajta raha, aage ke liye samjha dijiye (Saraswati Vihar)",police,low,hinglish,synthetic,yes
+cdi124,"Birth certificate ke liye 17 din pehle apply kiya tha, bas expected date jaanni hai",pension_govt,low,hinglish,synthetic,no
+cdi125,"Subah se paani nahi aaya, 10 ghante ho gaye, khana banane ko bhi nahi hai",water_sewage,medium,hinglish,synthetic,no
+cdi126,Kuch anjaan log raat ko hamari gali mein ghoomte hain aur gate check karte hain,police,medium,hinglish,synthetic,no
+cdi127,"Signal ke paas bada gaddha ek lane block kar raa hai, jam lag jata hai",roads,medium,hinglish,synthetic,no
+cdi128,"bagal ke park mein 8 din se rat 2 baje tak dj aur speaker chalte hain, bachche padh nahi paate",police,medium,hinglish,synthetic,no
+cdi129,"Poori road tooti hui hai, patthar bikhre hain, gaadiyan bahut dheere nikalti hain (Subhash Chowk)",roads,medium,hinglish,synthetic,yes
+cdi130,"subah paani ka pressure bohot kam hota hai, tanki bharne mein time lagta hai (shastri nagar)",water_sewage,low,hinglish,synthetic,yes
+cdi131,"Pothole on the service road is getting bigger, please fill it - near Bus Stand!!! please do something fast",roads,low,english,synthetic,yes
+cdi132,"Rod par construction ka malba daal diya gaya hai, aadhi lane block ho gayi",garbage,medium,hinglish,synthetic,no
+cdi133,"Is hafte hamari gali mein teen logon ko dengue nikla hai, turant fogging karwao, Patel Nagar",health,high,hinglish,synthetic,yes
+cdi134,वार्ड 12: चाय की टपरी के पास रोज रात नशे में कुछ लोग गाली-गलौज और लड़ाई करते हैं,police,medium,hindi,synthetic,yes
+cdi135,"Road near my house has a deep gaddha, nothing serious but needs patching",roads,low,english,synthetic,no
+cdi136,Gandhi Nagar: Gambling happens every night in the empty plot behind the temple,police,medium,english,synthetic,yes
+cdi137,"School ke paas zebra crossing ka paint ud gaya hai, dobara karwa do - Model Town",roads,low,hinglish,synthetic,yes
+cdi138,"Disability pension is pending for 3 months, application is in the office, Gandhi Nagar",pension_govt,medium,english,synthetic,yes
+cdi139,"vidhwa pension 3 mahine se account mein nahi aayi, status check karwa do (shastri nagar)",pension_govt,medium,hinglish,synthetic,yes
+cdi140,"PURANA METER BADALWANA HAI, 10 DIN PEHLE APPLICATION DI THI (BLOCK C, JANAKPURI)!!!",electricity,low,hinglish,synthetic,yes
+cdi141,"Bagal ke park men 6 din se raat 2 baje tak DJ aur speaker chalte hain, bachche padh nahi paate - Rajiv Chowk",police,medium,hinglish,synthetic,yes
+cdi142,"आवारा कुत्ते बाइक और सुबह टहलने वालों के पीछे पड़ते हैं, लोग डरे हुए हैं, नेहरू पार्क के पास",other,medium,hindi,synthetic,yes
+cdi143,"Ration card is pending for 11 months, every time the office gives a new excuse (Phase 2, Vikas Puri)",pension_govt,high,english,synthetic,yes
+cdi144,"Dukandaaron ne dukaan ke aage gali tak jagah gher li hai, rasta tang ho gaya - near City Mall",other,low,hinglish,synthetic,yes
+cdi145,"kal raat ghar ke bahar se meri bike chori ho gayi, gali mein cctv bhi nahi hai, block c, janakpuri",police,medium,hinglish,synthetic,yes
+cdi146,"hello, near bus stand: people keep falling at this broken patch of road daily, it needs urgent repair",roads,high,english,synthetic,yes
+cdi147,"hamari gali mein road sweeping regular nahi hoti, shuru karwa dijiye (sai colony)",garbage,low,hinglish,synthetic,yes
+cdi148,Hamari gali mein ek dukaan se avaidh sharab bik rahi hai aur nashe min log jhagde karte hain,police,medium,hinglish,synthetic,no
+cdi149,हमारी कॉलोनी में शाम को पुलिस गश्त बढ़ा दीजिए,police,low,hindi,synthetic,no
+cdi150,"Pipeline ki khudai ke baad road 5 hafte se kharab padi hai, traffic bohot affect ho raha hai (Model Town)",roads,medium,hinglish,synthetic,yes
+cdi151,"Park ke paas 9 din se kachra nahi uthaya, badbu aur makkhiyan bohot hain, Lajpat Nagar",garbage,medium,hinglish,synthetic,yes
+cdi152,PLEASE PUT A POLICE BEAT ON THE MARKET ROAD DURING FESTIVAL DAYS (CIVIL LINES)!!!,police,low,english,synthetic,yes
+cdi153,"Pothole on the service road is getting bigger, please fill it (Gali no 5, Rajendra Nagar)",roads,low,english,synthetic,yes
+cdi154,Bada hissa toot kar colony ke road par pada hai aur raasta band hai - Subhash Chowk,other,medium,hinglish,synthetic,yes
+cdi155,"वार्ड 7: सुबह नल में पानी का प्रेशर बहुत कम रहता है, टंकी भरने में समय लगता है",water_sewage,low,hindi,synthetic,yes
+cdi156,Subhash Chowk: There is no power at all in our colony for 42 hours. Old people and children are suffering,electricity,high,english,synthetic,yes
+cdi157,"is road ki sari streetlights 12 din se off hain, rat mein chalna mshkil ho gaya hai - gandhi nagar",electricity,medium,hinglish,synthetic,yes
+cdi158,Aaj subah park ke paas awara kutton ne do logon ko kaat liya - Ward 21,other,high,hinglish,synthetic,yes
+cdi159,Reception ka staff mareezon se rudely baat karta hai,health,low,hinglish,synthetic,no
+cdi160,"gali mein mara hua jaanwar pada hai, badbu phail rahi hai - subhash chowk",garbage,medium,hinglish,synthetic,yes
+cdi161,"applied for a birth certificate 6 days ago, just wanted to know the expected date",pension_govt,low,english,synthetic,no
+cdi162,"KACHRA GADI 3 DIN SE NAHI AAYI, LOG ROAD PAR KACHRA FENK RAHE HAIN, SHASTRI NAGAR!!!",garbage,medium,hinglish,synthetic,yes
+cdi163,"pitaji ka death certificate 7 hafte se nahi bana, bank ka kaam ruka hua hai (bhagat singh colony)",pension_govt,medium,hinglish,synthetic,yes
+cdi164,"Hamare area mein kaafi logon ko pichle kuch din se tez bukhar aur ulti ho rahi hai, outbreak lag raha hai, Civil Lines",health,high,hinglish,synthetic,yes
+cdi165,"Dengue season is here and our lane has open water tanks and puddles, we need larvicide spray (Gandhi Nagar)",health,medium,english,synthetic,yes
+cdi166,"market ke saamne footpath ki tiles toot gayi hain, paidal chalne mein dikkat hai - rajiv chowk",roads,low,hinglish,synthetic,yes
+cdi167,ashok vihar: the public dustbin at the corner is overflowing and waste is spilling onto the road,garbage,medium,english,synthetic,yes
+cdi168,"Dear sir, indira Colony: A group is beating a man in the street right now, someone call police immediately",police,high,english,synthetic,yes
+cdi169,"School ke paas zebra crossing ka paint ud gaya hai, dobara karwa do",roads,low,hinglish,synthetic,no
+cdi170,"Chain snatching happened yesterday evening on our road, police have not come yet (Lajpat Nagar)",police,medium,english,synthetic,yes
+cdi171,Kutton ka jund roz school jaae bachon par bhaunkta hai - Tilak Nagar,other,medium,hinglish,synthetic,yes
+cdi172,"Sarkari dispensary mein paracetamol aur BP ki goliyan bhi nahi hain (Gali no 5, Rajendra Nagar)",health,medium,hinglish,synthetic,yes
+cdi173,please increase police patrolling in our colony in the evenings,police,low,english,synthetic,no
+cdi174,"Paani nahi aa raha pichle 16 ghante se, Anand Vihar",water_sewage,medium,hinglish,synthetic,yes
+cdi175,"when is the next vaccination camp for childen in our ward, near shv mandir",health,low,english,synthetic,yes
+cdi176,Road ki lane marking ab dikhti nahi hai,roads,low,hinglish,synthetic,no
+cdi177,Lajpat Nagar: Parking se rat ko cycle aur water mtor chori ho gaye,police,medium,hinglish,synthetic,yes
+cdi178,Applied for a new ration card 2 months ago and it has not been issued yet,pension_govt,medium,english,synthetic,no
+cdi179,"Kachra 5 din se nahi uthaya gaya, kone par dher lag gaya hai",garbage,medium,hinglish,synthetic,no
+cdi180,"sai colony: service road ka pothole badhta ja raha hai, please dekh lo",roads,low,hinglish,synthetic,yes
+cdi181,Is mahine Rs 7200 ka galat bill aaya aur disconnection notice bhi aa gaya (Subhash Chowk),electricity,medium,hinglish,synthetic,yes
+cdi182,"Loud DJ and speakers run till 2 am for 8 days in the park next to us, children cannot study, Lajpat Nagar",police,medium,english,synthetic,yes
+cdi183,"Colony mein bandar khaana cheen lete hain aur saaman kharab karte hain, balcony se ghar mein ghus jaate hain - Tilak Nagar",other,medium,hinglish,synthetic,yes
+cdi184,"Signal ke paas bada gaddha ek lane block kar raa hai, jam lag jata hai (Shastri Nagar)",roads,medium,hinglish,synthetic,yes
+cdi185,"पटेल नगर: सड़क पर एक बड़ा गड्ढा हो गया है, कृपया मरम्मत करवा दें",roads,low,hindi,synthetic,yes
+cdi186,"awara gaayein road ke beech baithi rehti hain aur traffic block hota hai, kalyan nagar",other,medium,hinglish,synthetic,yes
+cdi187,"Kal raat shaadi mein 10 baje ke baad bhi loud speaker bajta raha, aage ke liye samjha dijiye",police,low,hinglish,synthetic,no
+cdi188,"Dear sir, illegal high speed breaker without paint, two bikes crashed there at night this week (near Shiv Mandir)",roads,high,english,synthetic,yes
+cdi189,Ashok Vihar: Dispensary ke waiting hall mein pankhe aur safai ki zarurat hai,health,low,hinglish,synthetic,yes
+cdi190,"Vidhwa pension 3 mahine se atki hai aur ghar mein koi aur kamaane wala nahi, khane ke laale pad gaye hain - Block C, Janakpuri",pension_govt,high,hinglish,synthetic,yes
+cdi191,"Bhagat Singh Colony: Road near my house has a deep gaddha, nothing serious but needs patching",roads,low,english,synthetic,yes
+cdi192,"The garbage truck has not come for 6 days, residents are throwing waste on the road (Tilak Nagar)!!! please do something fast",garbage,medium,english,synthetic,yes
+cdi193,Water has collected in the empty plot next to our house and mosquitoes are everywhere - near Shiv Mandir,health,medium,english,synthetic,yes
+cdi194,"Need help, issue in our locality",other,low,english,synthetic,no
+cdi195,Kalyan Nagar: Applied for a new ration card 1 month ago and it has not been issued yet!!! please do something fast,pension_govt,medium,english,synthetic,yes
+cdi196,"मॉडल टाउन: इसी गड्ढे पर रोज बाइकें फिसल रही हैं, इस हफ्ते तीन लोग गिर चुके हैं",roads,high,hindi,synthetic,yes
+cdi197,"Ward 7: Colony ke paas roz shaam ko koi kachra jalata hai, dhuan bohot pareshan karta hai",garbage,medium,hinglish,synthetic,yes
+cdi198,"ghar ka taala toota hua mila aur samaan gayab hai, aaj trip se wapas aaye",police,medium,hinglish,synthetic,no
+cdi199,"Is hafte hamari gali mein teen logon ko dengue nikla hai, turant fogging karwao - near Nehru Park",health,high,hinglish,synthetic,yes
+cdi200,"Bhaiya 5 din se ganda paani aa raha hai, colony mein kai logon ko pet ki infection aur ulti ho rahi hai, Gandhi Nagar",water_sewage,high,hinglish,synthetic,yes
+cdi201,"Area mein 8 ghante se power cut hai, boht pareshani ho rahi hai (Rajiv Chowk)",electricity,medium,hinglish,synthetic,yes
+cdi202,"The public dustbin at the corner is overflowing and waste is spilling onto the road, near Bus Stand",garbage,medium,english,synthetic,yes
+cdi203,"Pitaji ka death certificate 6 hafte se nahi bana, bank ka kaam ruka hua hai (Green Park)",pension_govt,medium,hinglish,synthetic,yes
+cdi204,"8 din se roz shaam ko low voltage rehta hai, fan aur tubelight theek se nahi chalte",electricity,medium,hinglish,synthetic,no
+cdi205,"Ashok Vihar: Nal se 7 din se ganda bhura paani aa raha hai, badbu bhi hai",water_sewage,medium,hinglish,synthetic,yes
+cdi206,"speed breaker par paint ya reflector laga do, dikhta nahi (green park)",roads,low,hinglish,synthetic,yes
+cdi207,"Streetlights on the entire stretch are not working for 4 days, residents find it hard to walk at night - Anand Vihar",electricity,medium,english,synthetic,yes
+cdi208,"Naali 9 din se jam hai aur ganda paani gali mein beh raha hai, near City Mall",water_sewage,medium,hinglish,synthetic,yes
+cdi209,"Hamare area mein kaafi logon ko picle kuch din se tez bukhar aur ulti ho rahi hai, outbreak lag raha hai",health,high,hinglish,synthetic,no
+cdi210,"Ghar ke bahar ki chhoti naali saaf karwa dijiye, dheere chal rahi hai",water_sewage,low,hinglish,synthetic,no
+cdi211,"cable ke kaam ke liye road khodi thi, 8 hafte ho gaye repair nahi hui, dhool aur jam rehta hai (subhash chowk)",roads,medium,hinglish,synthetic,yes
+cdi212,a big tree has fallen across the lane after last night's storm and nobody can pass - near bus stand,other,medium,english,synthetic,yes
+cdi213,"सड़क पर निर्माण का मलबा डाल दिया गया है, आधी लेन बंद हो गई है, नेहरू पार्क के पास",garbage,medium,hindi,synthetic,yes
+cdi214,सिटी मॉल के पास: हमारी गली में एक दुकान से अवैध शराब बिक रही है और नशे में लोग झगड़ा करते हैं,police,medium,hindi,synthetic,yes
+cdi215,"इस हफ्ते हमारी गली में तीन लोगों को डेंगू हुआ है, तुरंत फॉगिंग करवाएं, वार्ड 12",health,high,hindi,synthetic,yes
+cdi216,"People keep falling at this broken patch of road daily, it needs urgent repair (Civil Lines)",roads,high,english,synthetic,yes
+cdi217,"Market ke paas transformer se spark aur dhuan nikal raha hai, dukaane bilkul saath mein hain",electricity,high,hinglish,synthetic,no
+cdi218,"ashok vihar: signal ke paas bada gaddha ek lane blok kar raha hai, jam lag jata hai",roads,medium,hinglish,synthetic,yes
+cdi219,"Ashok Vihar: Hamari gali mein road sweeping regular nahi hoti, shuru karwa dijiye",garbage,low,hinglish,synthetic,yes
+cdi220,"hello, water has not come since morning, almost 20 hours now, we have nothng for cookig (kalyan nagar)",water_sewage,medium,english,synthetic,yes
+cdi221,"मुख्य सड़क के गड्ढों की वजह से रोज शाम को लंबा जाम लगता है, नेहरू पार्क के पास",roads,medium,hindi,synthetic,yes
+cdi222,"big pothole near the signal is blocking one lane and creating jams, green park",roads,medium,english,synthetic,yes
+cdi223,near bus stand: girls hostel ke paas roz shaam ko ek group ladkiyon ko chhedta hai aur follow karta hai,police,high,hinglish,synthetic,yes
+cdi224,Indira Colony: Nal mein ganda paani aa raha hai aur gali ke kaafi bachche loose motion se bimar ho gaye hain,water_sewage,high,hinglish,synthetic,yes
+cdi225,"Is stretch par bohot gaddhe hain, gaadiyan dheere chalti hain aur bike ko nuksaan ho raha hai",roads,medium,hinglish,synthetic,no
+cdi226,"Zebra crossing paint has faded near the school, please repaint!!! please do something fast",roads,low,english,synthetic,no
+cdi227,"Dengue season is here and our lane has open water tanks and puddles, we ned lavicide spray, Wrd 12",health,medium,english,synthetic,yes
+cdi228,"Park ke pas 11 din se kachra nahi uthaya, badbu aur makkhiyan bohot hain, Saraswati Vihar",garbage,medium,hinglish,synthetic,yes
+cdi229,"Namaste, dispensary mein 5 din se doctor nahi aaye, mareez wapas jaa rahe hain - Bhagat Singh Colony",health,medium,hinglish,synthetic,yes
+cdi230,"There is a big pothole on our road, please repair when possible, near Shiv Mandir",roads,low,english,synthetic,yes
+cdi231,"school ke paas road par bijli ka taar gir gaya hai, bachche paas se guzar rhe hain (indira colony)",electricity,high,hinglish,synthetic,yes
+cdi232,"Sir, kachra 3 din se nahi uthaya gaya, kone par dher lag gaya hai",garbage,medium,hinglish,synthetic,no
+cdi233,"Padosi 3 din se raat ko bahut tez music bajate hain, neend nahi aati - Lajpat Nagar",police,medium,hinglish,synthetic,yes
+cdi234,"sarkari dispensary mein paraetamol aur bp ki goliyan bhi nahi hain, tilak nagar!!!",health,medium,hinglish,synthetic,yes
+cdi235,CHC ki Saturday ko OPD timing kya hai,health,low,hinglish,synthetic,no
+cdi236,"5 din se ek boond paani nahi aaya, roz tanker mangwana pad raha hai, Kalyan Ngar",water_sewage,high,hinglish,synthetic,yes
+cdi237,"5 din ho gaye poora blackout hai, pura mohalla andhere mein, team bhejo, Indira Colony",electricity,high,hinglish,synthetic,yes
+cdi238,"near Shiv Mandir: The road was dug for cable work 6 weeks ago and has not been repaired, dust and jams everywhere",roads,medium,english,synthetic,yes
+cdi239,"sir, civil lines: dispensary ke waiting hall mein pankhe aur safai ki zarurat hai",health,low,hinglish,synthetic,yes
+cdi240,"park ke paas 14 din se kachra nahi uthaya, badbu aur makkhiyan bohot hain (model town)",garbage,medium,hinglish,synthetic,yes
+cdi241,"pipeline ki khudai ke baad road 3 hafte se kharab padi hai, traffic bohot affect ho raha hai!!! jaldi karo",roads,medium,hinglish,synthetic,no
+cdi242,"footpath par pura thele wale baithe hain, road par chalna pdta hai (gandhi nagar)",roads,low,hinglish,synthetic,yes
+cdi243,"Sir, bagal ke park mein 8 din se raat 2 baje tak DJ aur speaker chalte hain, bachche padh nahi paate, Civil Lines",police,medium,hinglish,synthetic,yes
+cdi244,"Naali ka ganda paani ghar mein ghus gaya hai, poora parivaar pareshan hai, Patel Nagar",water_sewage,high,hinglish,synthetic,yes
+cdi245,ashok vihar: kuch anjaan log raat ko hamari gali mein ghoomte hain aur gate check karte hain,police,medium,hinglish,synthetic,yes
+cdi246,Waste has not been collected from our lane for 1 day,garbage,low,english,synthetic,no
+cdi247,"Kal padosi ki party thodi shor wali thi, bas ek baar baat kar lijiye (Sector 14)!!! jaldi karo",police,low,hinglish,synthetic,yes
+cdi248,"Busy highway par bada gaddha hai, raat ko light nahi hoti, trucks bachke nikalte hain - Tilak Nagar",roads,high,hinglish,synthetic,yes
+cdi249,"Kachra gadi der se aati hai, timing subah ki kar sakte hain kya (Indira Colony)!!! jaldi karo",garbage,low,hinglish,synthetic,yes
+cdi250,"footpath tiles are broken in front of the market, pedestrians find it difficult",roads,low,english,synthetic,no
+cdi251,"Namaste, 2 din se ek boond paani nahi aaya, roz tanker mangwana pad rha hai - Sector 14",water_sewage,high,hinglish,synthetic,yes
+cdi252,"Please install a dustbin near the bus stop, people throw waste on the ground - Phase 2, Vikas Puri",garbage,low,english,synthetic,yes
+cdi253,"Poori gali mein tar nahi bacha, sirf patthar aur mitti hai, gaadiyon ko double time lagta hai",roads,medium,hinglish,synthetic,no
+cdi254,"Chowk ke paas badi pipe phat gayi, hazaaron litre pani waste aur road par paani bhar gaya",water_sewage,medium,hinglish,synthetic,no
+cdi255,Sai Colony: Minor leakage from the supply pipeline outside my house,water_sewage,low,english,synthetic,yes
+cdi256,"Raat ko delivery case ke liye hospital ne ambulance se mana kar diya, parivaar ko auto se jana pada",health,high,hinglish,synthetic,no
+cdi257,"green park: ghar ke paas road mein gehra gaddha hai, patching karwa do",roads,low,hinglish,synthetic,yes
+cdi258,"meri vridha pension 4 mahine se nahi aayi, dawai aur khane ke liye usi par depend hoon - wad 21",pension_govt,high,hinglish,synthetic,yes
+cdi259,"bhaiya mg road: service road par pashuon ka jhund ghoomta hai, bike walon ko achanak brake lagana padta hai",other,medium,hinglish,synthetic,yes
+cdi260,hamare area mein pichle kuch hafton se bandar bohot badh gaye hain - anand vihar!!!,other,medium,hinglish,synthetic,yes
+cdi261,"Dear sir, waste has not been collected from our lane for 1 day, near Shiv Mandir",garbage,low,english,synthetic,yes
+cdi262,"हमारे इलाके में पिछले 2 घंटे से बिजली नहीं है, कोई जानकारी नहीं दे रहा",electricity,medium,hindi,synthetic,no
+cdi263,"viklang pension 2 mahine se pending hai, application office mein padi hai - lajpat nagar",pension_govt,medium,hinglish,synthetic,yes
+cdi264,Kuch anjaan log raat ko hamari gali mein ghoomte hain aur gate check karte hain - near Bus Stand,police,medium,hinglish,synthetic,yes
+cdi265,"5 din se ek boond paani nahi aaya, roz tanker mangwana pad raha hai",water_sewage,high,hinglish,synthetic,no
+cdi266,"hello, whole lane has no tar left, it is only stones and mud and vehicles take double the time, indira colony",roads,medium,english,synthetic,yes
+cdi267,"Kal se paani nahi aa raha, please check karo",water_sewage,medium,hinglish,synthetic,no
+cdi268,"Streetlights 5 din se band hain, kal raat andhere mein ek buzurg gir gaye aur chot lagi. Jaldi lights chalu karo (Model Town)",electricity,high,hinglish,synthetic,yes
+cdi269,"Chowk ke paas badi pipe phat gayi, hazaaron litre paani waste aur road par paani bhar gaya, Green Park",water_sewage,medium,hinglish,synthetic,yes
+cdi270,"Raat ko delivery case ke lie hospital ne ambulance se mana kar diya, parivaar ko auto se jana pada",health,high,hinglish,synthetic,no
+cdi271,"Very deep pothole on the flyover approach at night, no signboard or reflector, Ashok Vihar",roads,high,english,synthetic,yes
+cdi272,"Ward 21: Kal shaam hamari road par chain snatching hui, police abhi tak nahi aayi",police,medium,hinglish,synthetic,yes
+cdi273,Pension application ka status online kaise check karein bata dijiye - Patel Nagar,pension_govt,low,hinglish,synthetic,yes
+cdi274,"Bus stop ke samne gaddha hai, abhi tak koi accident nahi hua, bas bharwa do",roads,low,hinglish,synthetic,no
+cdi275,सरस्वती विहार: सरकारी डिस्पेंसरी में पैरासिटामोल और बीपी की गोलियां भी नहीं हैं,health,medium,hindi,synthetic,yes
+cdi276,"Naali ka ganda paani ghar mein ghus gaya hai, poora parivaar pareshan hai (Patel Nagar)",water_sewage,high,hinglish,synthetic,yes
+cdi277,"Abi gali mein kuch log ek aadmi ko maar rahe hain, turant police bhejo (Shastri Nagar)",police,high,hinglish,synthetic,yes
+cdi278,"phase 2, vikas puri: whole lane has no tar left, it is only stones and mud and vehicles take double the time",roads,medium,english,synthetic,yes
+cdi279,"Block C, Janakpuri: Ek streetlight kharab hai 2 din se, baaki sab theek hai",electricity,low,hinglish,synthetic,yes
+cdi280,"sector 9: old age pension is stopped since 9 months, i have no other income",pension_govt,high,english,synthetic,yes
+cdi281,"tilak nagar: gali mein 5 din se bohot machhar hain, fogging ke liye koi nahi aaya",health,medium,hinglish,synthetic,yes
+cdi282,"park ke paas 20 din se kachra nahi uthaya, badbu aur makkhiyan bohot hain (ward 21)",garbage,medium,hinglish,synthetic,yes
+cdi283,"Vihwa pension 3 mahine se account mein nahi aayi, status check karwa do, Sai Colony",pension_govt,medium,hinglish,synthetic,yes
+cdi284,"सेक्टर 14: हमारे इलाके में पिछले 6 घंटे से बिजली नहीं है, कोई जानकारी नहीं दे रहा",electricity,medium,hindi,synthetic,yes
+cdi285,"Loud DJ and speakers run till 2 am for 7 days in the park next to us, children cannot study",police,medium,english,synthetic,no
+cdi286,Pension application ka staus online kaise ceck karein bata dijiye - Saraswati Vihar,pension_govt,low,hinglish,synthetic,yes
+cdi287,"I want to correct a spelling mistake in my ration card, applied last week (Gandhi Nagar)",pension_govt,low,english,synthetic,yes
+cdi288,"कचरा गाड़ी 1 दिन से नहीं आई है, डस्टबिन भरने लगा है",garbage,low,hindi,synthetic,no
+cdi289,"sai colony: mere ghar ke bahar speed breaker bohot ooncha hai, height kam karwa do",roads,low,hinglish,synthetic,yes
+cdi290,"Sector 14: Kal ek scooter wala gaddhe mein gir gaya aur haath toot gaya, jaldi repair karwao",roads,high,hinglish,synthetic,yes
+cdi291,"footpath near the park is damaged at some places, please repair, subhash chowk!!!",roads,low,english,synthetic,yes
+cdi292,"mosquito breeding in the stagnant water near the park, please spray - civil lines",health,medium,english,synthetic,yes
+cdi293,"Civil Lines: Block ke paas paani ruka hua hai, dengue malaria ka bohot khatra hai, abhi tak koi bimar nahi hai, fogging karwa do",health,medium,hinglish,synthetic,yes
+cdi294,Gali se 1 din se kachra nahi uthaya gaya (Sai Colony),garbage,low,hinglish,synthetic,yes
+cdi295,aaj subah park ke paas awara kutton ne do logon ko kaat liya,other,high,hinglish,synthetic,no
+cdi296,"vidhwa pension 1 mahina se account mein nahi aayi, status check karwa do",pension_govt,medium,hinglish,synthetic,no
+cdi297,"6 din se supply ke pani mein sewage jaisi smell hai, peene layak nahi",water_sewage,medium,hinglish,synthetic,no
+cdi298,"Kal shaam bus stop ke paas phone cheen liya gaya, complaint likhwani hai, Block C, Janakpuri",police,medium,hinglish,synthetic,yes
+cdi299,"Bhaiya hamari gali mein road sweeping regular nahi hoti, shuru karwa dijiye - Ashok Vihar",garbage,low,hinglish,synthetic,yes
+cdi300,Padosi ne apne plot ke bahar sarkari zamen par shed bana liya hai,other,low,hinglish,synthetic,no
+cdi301,"Bhaiya ration card 10 mahine se pending hai, office har baar naya bahana banata hai",pension_govt,high,hinglish,synthetic,no
+cdi302,"Bhaiya gali se 2 din se kachra nahi uthaya gaya, Green Park!!! jaldi karo",garbage,low,hinglish,synthetic,yes
+cdi303,"THE DOCTOR HAS NOT COME TO THE DISPENSARY FOR 6 DAYS, PATIENTS ARE GOING BACK (PATEL NAGAR)!!!",health,medium,english,synthetic,yes
+cdi304,"Nal mein presure thoda kam ho gaya hai, ek baar dekh lo",water_sewage,low,hinglish,synthetic,no
+cdi305,"ब्लॉक सी, जनकपुरी: घर के बगल के खाली प्लॉट में पानी जमा है और मच्छर बहुत हैं",health,medium,hindi,synthetic,yes
+cdi306,"Is road ki saari streetlights 5 din se off hain, raat mein chalna mushkil ho gaya hai, Sai Colony",electricity,medium,hinglish,synthetic,yes
+cdi307,"Ration card ki application 1 mahina se pending hai, status mein verification dikha raha hai, Gali no 5, Rajendra Nagar",pension_govt,medium,hinglish,synthetic,yes
+cdi308,"Market ke paas road kinare mari hui gaay pari hai, hatwa do, Indira Colony",garbage,medium,hinglish,synthetic,yes
+cdi309,"Namaste, rajiv Chowk: Barish ke baad road ke beech bada sinkhole khul gaya hai, gaadiyan nahi nikal paa rahi",roads,high,hinglish,synthetic,yes
+cdi310,Shastri Nagar: Parking se raat ko cycle aur water motor chori ho gaye,police,medium,hinglish,synthetic,yes
+cdi311,"8 din se supply ke paani mein sewage jaisi smell hai, peene layak nahi",water_sewage,medium,hinglish,synthetic,no
+cdi312,एमजी रोड: कुछ अनजान लोग रात को हमारी गली में घूमते हैं और गेट चेक करते हैं,police,medium,hindi,synthetic,yes
+cdi313,Cars are parked in front of my gate every day and I cannot take my vehicle out,other,low,english,synthetic,no
+cdi314,Kachre ke dher mein aag lagi hai aur lapten paas ke ghar tak pahunch rahi hain,garbage,high,hinglish,synthetic,no
+cdi315,"Flyover ke paas rat mein bahut gehra gaddha dikhta nahi, koi signboard ya reflector nahi",roads,high,hinglish,synthetic,no
+cdi316,sector 9: a suspicious car parks outside our society every night with people sitting insde,police,medium,english,synthetic,yes
+cdi317,Market ke paas awara kutton ke liye kuch karo,other,low,hinglish,synthetic,no
+cdi318,"There has been no electricity in our area for the last 20 hours, no information from the office",electricity,medium,english,synthetic,no
+cdi319,"Dear sir, bhagat Singh Colony: A group is beating a man in the street right now, someone call police immediately",police,high,english,synthetic,yes
+cdi320,"12 din se roz shaam ko low voltage rehta hai, fan aur tubelight theek se nahi chalte",electricity,medium,hinglish,synthetic,no
+cdi321,"Dispensary mein 10 din se doctor nahi aaye, mareez wapas jaa rahe hain",health,medium,hinglish,synthetic,no
+cdi322,"Gali mein awara kutte bhaunkte aur sote rehte hain, unhe shift karwa do (Kalyan Nagar)",other,low,hinglish,synthetic,yes
+cdi323,a big tree has fallen across the lane after last night's storm and nobody can pass - kalyan nagar,other,medium,english,synthetic,yes
+cdi324,the streetlight near my house is off since 2 days. kindly get it fixed,electricity,low,english,synthetic,no
+cdi325,"Kachra gadi 5 din se nahi aayi, log road par kachra fnk rahe hain!!! jaldi karo",garbage,medium,hinglish,synthetic,no
+cdi326,"केबल के काम के लिए सड़क खोदी गई थी, 3 हफ्ते हो गए मरम्मत नहीं हुई, धूल और जाम रहता है, वार्ड 12",roads,medium,hindi,synthetic,yes
+cdi327,"sir, kal rat ghar ke bahar se meri bike chori ho gayi, gali mein ctv bhi nahi hai, near nehru prk",police,medium,hinglish,synthetic,yes
+cdi328,"Dead animal on our street, stench is spreading - near Bus Stand",garbage,medium,english,synthetic,yes
+cdi329,"hello, there was a fight between two groups last night and a shop glass was broken, please take action",police,medium,english,synthetic,no
+cdi330,"No water supply in our area for the last 10 hours, Phase 2, Vikas Puri",water_sewage,medium,english,synthetic,yes
+cdi331,"model town: kachra gadi 5 din se nahi aayi, log road par kachra fenk rahe hain",garbage,medium,hinglish,synthetic,yes
+cdi332,"Ward 21: Subah se paani nahi aaya, 7 ghante ho gaye, khana banane ko bhi nahi hai",water_sewage,medium,hinglish,synthetic,yes
+cdi333,"PHC mein 7 din se koi doctor nahi hai, sirf compounder dawai deta hai",health,medium,hinglish,synthetic,no
+cdi334,"Death certificate of my father has not been issued for 9 weeks, bank work is stuck (Indira Colony)",pension_govt,medium,english,synthetic,yes
+cdi335,"जन्म प्रमाणपत्र के लिए 8 दिन पहले आवेदन किया था, बस अपेक्षित तारीख जाननी है",pension_govt,low,hindi,synthetic,no
+cdi336,"Market ke saamne footpath ki tiles toot gayi hain, paidal chalne mein dikkat hai",roads,low,hinglish,synthetic,no
+cdi337,Stay cows are sitting in the middle of the road and blocking traffic,other,medium,english,synthetic,no
+cdi338,"Applied for a new ration card 2 months ago and it has not been issued yet, Ward 7",pension_govt,medium,english,synthetic,yes
+cdi339,Boys on bikes harass girls outside the college gae every day and follow them,police,high,english,synthetic,no
+cdi340,"School ke paas kachre ke dher mein badi aag lagi hai, bachche khaans rahe hain - Bhagat Sigh Colony",garbage,high,hinglish,synthetic,yes
+cdi341,"Aaj gaddhe ki wajah se accident hua, school ke paas ek mahila bike se gir kar buri tarah ghayal ho gayi",roads,high,hinglish,synthetic,no
+cdi342,"barish ke baad road ke beech bada sinkhole khul gaya hai, gaadiyan nahi nikal paa rahi, lajpat nagar",roads,high,hinglish,synthetic,yes
+cdi343,"gali mein 16 din se kachra pada hai, makkhi aur chuhe bohot ho gaye hain, ward 7",garbage,medium,hinglish,synthetic,yes
+cdi344,"Electric wire is hanging low and sparking in front of our gate after the storm, very dangerous",electricity,high,english,synthetic,no
+cdi345,No water supply in our area for the last 19 hours (Ward 7),water_sewage,medium,english,synthetic,yes
+cdi346,"Girls hostel ke paas roz shaam ko ek group ladkiyon ko chhedta hai aur follow karta hai, Model Town",police,high,hinglish,synthetic,yes
+cdi347,"Streetlights 6 din se band hain, kal raat andhere mein ek buzurg gir gaye aur chot lagi. Jaldi lights chalu karo, Ward 21",electricity,high,hinglish,synthetic,yes
+cdi348,"केबल के काम के लिए सड़क खोदी गई थी, 7 हफ्ते हो गए मरम्मत नहीं हुई, धूल और जाम रहता है",roads,medium,hindi,synthetic,no
+cdi349,"Poori gali mein tar nahi bacha, sirf patthar aur mitti hai, gaadiyon ko double time lagta hai - Tilak Nagar",roads,medium,hinglish,synthetic,yes
+cdi350,"सिविल लाइंस: हमारी गली की एक स्ट्रीट लाइट 3 दिन से बंद है, कृपया बल्ब बदलवाएं",electricity,low,hindi,synthetic,yes
+cdi351,"The doctor has not come to the dispensary for 5 days, patients are going back - Ward 21!!! please do something fast",health,medium,english,synthetic,yes
+cdi352,"Cycle chalate bachche gaddhe mein gir kar chotil ho gaya, bahut khatarnaak hai - Phase 2, Vikas Puri",roads,high,hinglish,synthetic,yes
+cdi353,"House lock was broken and valuables are missing, we returned from a trip today (Green Park)",police,medium,english,synthetic,yes
+cdi354,"meri vridha pension 10 mahine se nahi aayi, dawai aur khane ke liye usi par depend hoon",pension_govt,high,hinglish,synthetic,no
+cdi355,"pichle hafte police booth mein jo complaint di thi uska status kya hai, kisi ne call nahi kiya",police,low,hinglish,synthetic,no
+cdi356,"kal shaam hamari road par chain snatching hui, police abhi tak nahi aayi",police,medium,hinglish,synthetic,no
+cdi357,"गांधी नगर: बाजार के सामने फुटपाथ की टाइलें टूटी हुई हैं, पैदल चलने में दिक्कत होती है",roads,low,hindi,synthetic,yes
+cdi358,"Ghar mein 5 din se paani nahi hai, buzurg bohot pareshan hain, MG Road",water_sewage,high,hinglish,synthetic,yes
+cdi359,"Monkeys snatch food and damage things in our colony, they enter homes through balconies",other,medium,english,synthetic,no
+cdi360,"पड़ोसी ने अपने प्लॉट के बाहर सरकारी जमीन पर शेड बना लिया है, वार्ड 7",other,low,hindi,synthetic,yes
+cdi361,Please put a police beat on the market road during festival days,police,low,english,synthetic,no
+cdi362,"सुबह से सड़क पर एक मरा हुआ कुत्ता पड़ा है, बदबू आने लगी है",garbage,medium,hindi,synthetic,no
+cdi363,"Kachra 5 din se nahi uthya gaya, kone par dher lag gaya hai - Sai Colony",garbage,medium,hinglish,synthetic,yes
+cdi364,"Zameen ke record ki correction 6 mahine se ruki hai, officer har baar agle hafte bulate hain",pension_govt,high,hinglish,synthetic,no
+cdi365,"Pichle hafte police booth mein jo complaint di thi uska status kya hai, kisi ne call nahi kiya, Ward 21",police,low,hinglish,synthetic,yes
+cdi366,"Roz meri gate ke saamne gaadiyan khadi rehti hain, meri gaadi nikalne mein dikkat hoti hai",other,low,hinglish,synthetic,no
+cdi367,"Sir, garbage has not been picked up for 5 days, piles are growing on the corner (Indira Colony)",garbage,medium,english,synthetic,yes
+cdi368,"Sai Colony: A pothole has formed in front of the bus stop. No accident so far, just needs repair",roads,low,english,synthetic,yes
+cdi369,Bill of Rs 15800 came this moth which is wrong. A disconnection notice has also been sent (near Bus Stand),electricity,medium,english,synthetic,yes
+cdi370,"gali mein barish ka paani 3 din se nikal nahi raha, talaab ban gaya hai (near nehru park)",water_sewage,medium,hinglish,synthetic,yes
+cdi371,"ग्रीन पार्क: हमारी कॉलोनी के पास रोज शाम को कचरा जलाया जाता है, धुआं बहुत परेशान करता है",garbage,medium,hindi,synthetic,yes
+cdi372,"हमारे गेट के सामने सड़क पर सीवर ओवरफ्लो हो रहा है, बदबू से रहना मुश्किल है",water_sewage,medium,hindi,synthetic,no
+cdi373,Please add a few more dustbins and benches in our colony park (Saraswati Vihar),other,low,english,synthetic,yes
+cdi374,"Domicile certificate 9 hafte se pending hai, college admission ke liye chahiye - Sector 9",pension_govt,medium,hinglish,synthetic,yes
+cdi375,"Community bin khali nahi hua, uske aas paas kachra phaila hua hai (Ward 21)",garbage,medium,hinglish,synthetic,yes
+cdi376,"there has been no electricity in our area for the last 6 hours, no information from the office - civil lines",electricity,medium,english,synthetic,yes
+cdi377,"कल गहरे गड्ढे से मेरी कार का टायर खराब हो गया, अशोक विहार",roads,medium,hindi,synthetic,yes
+cdi378,"Gali no 5, Rajendra Nagar: My old age pension has not come for 6 months, I depnd on it for medicines and food",pension_govt,high,english,synthetic,yes
+cdi379,"dengue ka season hai aur gali mein khuli tankiyan aur gadhdhon mein paani hai, larvicide spray chahiye - shastri nagr",health,medium,hinglish,synthetic,yes
+cdi380,"Bhaiya road par construction ka malba daal diya gaya hai, aadhi lane block ho gayi, Saraswati Vihar",garbage,medium,hinglish,synthetic,yes
+cdi381,Khali plot mein roz kachra jalaya ja raha hai aur dhuan ghar mein aa raha hai,garbage,medium,hinglish,synthetic,no
+cdi382,"Block C, Janakpuri: Footpath par pura thele wale baithe hain, road par chalna padta hai",roads,low,hinglish,synthetic,yes
+cdi383,"Is stretch par bohot gaddhe hain, gaadian dheere chalti hain aur bike ko nuksan ho raha hai",roads,medium,hinglish,synthetic,no
+cdi384,big pothole near the signal is blocking one lane and creating jams,roads,medium,english,synthetic,no
+cdi385,"naali 8 din se jam hai aur ganda paani gali mein beh raha hai - block c, janakpuri",water_sewage,medium,hinglish,synthetic,yes
+cdi386,"Please check my mter reading, the bill loks a little higher than lst month, MG Road",electricity,low,english,synthetic,yes
+cdi387,"footpath par pura thele wale baithe hain, road par chalna padta hai",roads,low,hinglish,synthetic,no
+cdi388,"all the streetlights in our lane have been off for 6 days. the whole road is dark after sunset, saraswati vihar",electricity,medium,english,synthetic,yes
+cdi389,"near bus stand: stray dogs chase bikes and morning walkers in our lane, people are scared",other,medium,english,synthetic,yes
+cdi390,"an unmarked speed breaker has come up on our street, a sign would help",roads,low,english,synthetic,no
+cdi391,"bhaiya kachra gadi 1 din se nahi aayi, dustbin bharne laga hai (ashok vihar)",garbage,low,hinglish,synthetic,yes
+cdi392,Waste is being burnt in the open plot daily and smoke is coming into homes (near Shiv Mandir),garbage,medium,english,synthetic,yes
+cdi393,"kalyan nagar: the garbage truck comes late in the day, could the timing be changed to morning",garbage,low,english,synthetic,yes
+cdi394,Burglars are inside the neighbour's house at this moment,police,high,english,synthetic,no
+cdi395,"many potholes on this stretch, vehicles move at crawling speed and two-wheelers are getting damaged (patel nagar)",roads,medium,english,synthetic,yes
+cdi396,"Unmarked speed breaker on the highway turn caused an accident yesterday, a man is in hospital (Civil Lines)",roads,high,english,synthetic,yes
+cdi397,"Caste certificate 3 din pehle apply kiya tha, kab tak ban jayega",pension_govt,low,hinglish,synthetic,no

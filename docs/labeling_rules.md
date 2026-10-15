@@ -59,3 +59,50 @@ Do not assume extra facts. If the text does not say how long the power has been 
 - Dengue/malaria RISK mentioned but nobody is reported sick -> medium
 - People in the area reported sick, or an outbreak -> high
 - Use water_sewage only if the citizen's main ask is to clear a drain or sewer
+
+## Rule 8: Crimes (police)
+- Crime against a person (assault, molestation or harassment of women, threat to life, kidnapping, acid attack, shooting, domestic violence with fear for life) -> police, high, even if it already happened
+- Armed threat or crime happening right now -> police, high
+- Property crime that already happened and nobody is hurt (theft, chain snatching, burglary) -> police, medium
+- Noise: repeated nightly/daily -> medium; one-time, or no duration mentioned -> low
+
+## Rule 9: Not a civic issue
+- Personal or family disputes (marriage, money between people) -> other, low
+- A request for a missing basic facility (e.g. village has no toilet) -> other, low
+
+## Rules 10-15 (added 15 Oct 2026 while building the final splits; reviewed by Nimitt Malhotra)
+These cover cases that came up in the real and own complaints and were not covered above.
+
+## Rule 10: Streetlights
+- One light off for 1-3 days, or a light that is dim or blinking -> electricity, low
+- Off for 4+ days, several lights out, or the area is described as dark/unsafe -> medium
+- Someone fell or got hurt in the dark, or the pole is sparking -> high
+
+## Rule 11: Bills, meters and utility paperwork
+- Electricity bill, meter, recharge or NOC -> electricity. Water/sewerage bill or water consumer number -> water_sewage.
+- Property tax, municipal fees, refunds and wrong payments to the municipality -> pension_govt
+- A bill dispute alone -> low. With a disconnection notice, or overbilling for several months -> medium.
+
+## Rule 12: Encroachment and obstruction
+- Footpath taken over (shops, carts, lawns) -> roads, low
+- Road or lane space taken (walls, sheds, parked cars, illegal parking) -> other, low
+- If the obstruction stops ambulances or school vans from entering -> medium
+- An illegal speed breaker is always roads (see the department table)
+
+## Rule 13: Animals (stray dogs, monkeys, cattle) -> other
+- A bite or attack is reported -> high
+- Chasing, aggressive animals, animals entering homes, or blocking traffic/a street -> medium
+- Barking every night that stops people sleeping -> medium (same as Rule 8 noise)
+- Animals present, dung, or occasional barking -> low
+
+## Rule 14: Lost items, FIRs and illegal activity
+- Item lost (not stolen) -> police, low
+- Status enquiry about an earlier complaint -> police, low
+- Police not acting on a real crime -> label the crime itself with Rule 8
+- Ongoing illegal activity with no direct victim (drugs, gambling, illegal liquor, suspicious people at night) -> police, medium
+
+## Rule 15: Pension dependency and hospital staff
+- "Depends on it for income" in Rule 6 applies only when the text says so (no other income, household runs on it, needs it for food or medicine). Otherwise use the pending duration.
+- Rude staff only -> health, low
+- Care refused or delayed for a patient in a serious condition -> health, high
+- Sexual misconduct by hospital staff -> police, high (Rule 8)
