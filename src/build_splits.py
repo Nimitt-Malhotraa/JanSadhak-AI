@@ -1,23 +1,3 @@
-"""Build the final train / val / test CSVs for JanSadhak AI (v1, 15 Oct 2026).
-
-Inputs
-  data/raw/cdi_labeled_full.csv                          synthetic (397 rows; 2 rows with source == own)
-  data/raw/own_complaints.csv                            own (80 rows, U01-U80)
-  data/raw/jansadhak_real_complaints_clean.csv           real public complaints (131 rows)
-  data/raw/jansadhak_real_translated.csv                 Hinglish translations of real rows (88 rows)
-
-Design
-  * Synthetic rows are train-only.
-  * val and test are class-balanced (10 test + 8 val per department, capped by available own+real rows),
-    and stratified inside each department by origin (own/real), urgency and language.
-  * 10 own rows go to train; the remaining own+real rows not needed for val/test go to train.
-  * A translated row is used only if its real source row is in train (no leakage), and inherits its labels.
-  * Any train row that is a near-duplicate (token Jaccard >= 0.6) of a val/test row is dropped from train.
-  * Labels for own + real rows follow docs/labeling_rules.md (incl. Rules 10-15).
-
-Run:  python src/build_splits.py
-      env JANSADHAK_ROOT overrides the project folder path.
-"""
 import collections, csv, html, os, random, re
 
 HOME = os.environ.get("HOME", ".")
@@ -57,18 +37,16 @@ U76:n-h U77:n-h U78:p-l U79:o-l U80:o-h
 """)
 SYN_FIX = {"cdi001": ("roads", "medium", "Rule 5: accident/vehicle damage with no injury stated -> medium")}
 SYN_DROP = {"cdi276": "exact duplicate of cdi244"}
-# location_mentioned (yes = a specific named place: locality, numbered sector/ward/gali, named landmark, PIN code)
 REAL_LOC_YES = set("""3 4 7 12 16 17 18 19 20 22 24 25 26 27 28 29 30 31 33 34 36 37 39 41 43 44 46 47 48 49 50 52 53 54 55 56 57 58
 59 60 61 62 63 64 65 67 68 71 72 74 76 78 84 85 90 97 99 104 105 106 107 108 110 111 113 114 117 119 120 121 122 124 125 126 127
 128 129 130 131""".split())
 OWN_LOC_YES = {"U18", "U44"}
-# real rows that were verified=no; source pages re-opened on 15 Oct 2026, opening text + date matched
 REVERIFIED = set("22 43 46 47 48 49 50 51 52 53 60 66 67 68 69 70 71".split())
 assert len(REAL_LABELS) == 131 and len(OWN_LABELS) == 80
 
 def clean(t, real=False):
     t = re.sub(r"\s+", " ", html.unescape(t or "")).strip()
-    if real: t = re.sub(r"\s?br\.\.\.$", "...", t)   # scraped <br> remnant before the site's truncation dots
+    if real: t = re.sub(r"\s?br\.\.\.$", "...", t)
     return t
 def toks(t): return {w for w in re.findall(r"[\wऀ-ॿ]+", t.lower()) if len(w) > 2}
 def jac(a, b): return len(a & b) / max(1, len(a | b))
@@ -77,7 +55,6 @@ def row(**k):
     base = dict(dept_by="given", urg_by="given", orig_dept="", orig_urg="", verification="")
     base.update(k); return base
 
-# ---------------- load ----------------
 synthetic, own, changes = [], [], []
 for r in rd(f"{ROOT}/data/raw/cdi_labeled_full.csv"):
     if r["id"] in SYN_DROP:
@@ -89,7 +66,7 @@ for r in rd(f"{ROOT}/data/raw/cdi_labeled_full.csv"):
         changes.append([r["id"], "urgency", x["urg"], u, why]); x.update(dept=d, urg=u, urg_by=LABELED_BY, orig_urg=r["urgency"])
     (own if r["source"] == "own" else synthetic).append(x)
 
-for r in rd(f"{ROOT}/data/raw/own_complaints.csv"):   # U01-U80, all written by the project author
+for r in rd(f"{ROOT}/data/raw/own_complaints.csv"):
     d, u = OWN_LABELS[r["id"]]
     if d != r["category"]: changes.append([r["id"], "department", r["category"], d, "labeling_rules.md"])
     changes.append([r["id"], "urgency", "", u, "labeling_rules.md (new label)"])
@@ -109,9 +86,7 @@ for r in rd(f"{ROOT}/data/raw/jansadhak_real_complaints_clean.csv"):
 assert len(synthetic) == 394 and len(own) == 82 and len(real) == 131, (len(synthetic), len(own), len(real))
 assert all(r["verification"] != "UNVERIFIED" for r in real)
 
-# ---------------- allocation helpers ----------------
 def rr(items, key):
-    """Order items round-robin across strata so any prefix/slice is a balanced mix."""
     b = collections.defaultdict(list)
     for it in items: b[key(it)].append(it)
     for v in b.values(): rng.shuffle(v)
@@ -123,7 +98,6 @@ def rr(items, key):
     return out
 
 def deal(items, targets):
-    """Assign an ordered list to splits with exact target counts, spreading each split evenly over the list."""
     n = len(items); assert sum(targets.values()) == n, (targets, n)
     got = {s: 0 for s in targets}; out = {s: [] for s in targets}
     for i, it in enumerate(items):
@@ -133,11 +107,9 @@ def deal(items, targets):
     return out
 
 def blocks(items, key):
-    """Sort items into contiguous strata (random order inside each stratum) so deal() splits every stratum proportionally."""
     return sorted(items, key=lambda r: (key(r), rng.random()))
 
 def imbalance(test, val):
-    """Squared distance of val/test from proportional splits on several marginals (lower is better)."""
     def ratio(k):
         if isinstance(k, tuple) and k and k[0] in plan:
             c = k[0]; return plan[c]["test"] / (plan[c]["test"] + plan[c]["val"])
@@ -153,7 +125,6 @@ def imbalance(test, val):
     return score
 
 def rebalance(test, val, iters=6000):
-    """Hill-climb: swap one test row with one val row of the SAME department if it lowers imbalance."""
     best = imbalance(test, val)
     for _ in range(iters):
         i = rng.randrange(len(test)); c = test[i]["dept"]
@@ -173,7 +144,6 @@ def largest_remainder(weights, total, caps):
         q[c] += 1
     return q
 
-# ---------------- split ----------------
 pool = collections.defaultdict(lambda: {"own": [], "real": []})
 for r in own + real: pool[r["dept"]][r["grp"]].append(r)
 plan = {}
@@ -200,7 +170,6 @@ before = imbalance(S["test"], S["val"])
 after = rebalance(S["test"], S["val"])
 print(f"val/test imbalance score: {before:.1f} -> {after:.1f}")
 
-# translated rows: only when the real source row is in train; labels inherited from source
 train_real = {r["rid"]: r for r in S["train"] if r["grp"] == "real"}
 tr_added = tr_skipped = 0
 for r in rd(f"{ROOT}/data/raw/jansadhak_real_translated.csv"):
@@ -211,7 +180,6 @@ for r in rd(f"{ROOT}/data/raw/jansadhak_real_translated.csv"):
                           dept_by=f"inherited:{src['id']}", urg_by=f"inherited:{src['id']}", verification=f"translation of {src['id']}"))
     tr_added += 1
 
-# leakage guard: drop train rows that near-duplicate any val/test row
 held = [(r, toks(r["text"])) for s in ("val", "test") for r in S[s]]
 kept, dropped = [], []
 for r in S["train"]:
@@ -221,7 +189,6 @@ for r in S["train"]:
 S["train"] = kept
 vt = [(a["id"], b["id"]) for a in S["val"] for b in S["test"] if jac(toks(a["text"]), toks(b["text"])) >= NEAR_DUP]
 
-# ---------------- checks ----------------
 ids = [r["id"] for s in S for r in S[s]]
 assert len(ids) == len(set(ids)), "duplicate ids"
 norm = [re.sub(r"\W+", "", r["text"].lower()) for s in S for r in S[s]]
@@ -233,7 +200,6 @@ for s in S:
 assert not any(r["grp"] == "synthetic" for s in ("val", "test") for r in S[s])
 assert not any(r["grp"] == "translated" for s in ("val", "test") for r in S[s])
 
-# ---------------- write ----------------
 COLS = ["id", "complaint_text", "department", "urgency", "language", "source", "location_mentioned"]
 os.makedirs(f"{ROOT}/data/processed", exist_ok=True)
 for name in S:
@@ -249,7 +215,6 @@ with open(f"{ROOT}/docs/split_manifest.csv", "w", newline="", encoding="utf-8-si
 with open(f"{ROOT}/docs/label_changes.csv", "w", newline="", encoding="utf-8-sig") as f:
     w = csv.writer(f); w.writerow(["id", "field", "old_value", "new_value", "reason"]); w.writerows(changes)
 
-# ---------------- report ----------------
 print("plan per class:", {c: plan[c] for c in sorted(plan)})
 print("own rows in train per class:", dict(sorted(own_train_q.items())))
 print(f"translated added {tr_added}, skipped {tr_skipped}; train rows dropped as near-dup of val/test: {len(dropped)}")

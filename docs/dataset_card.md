@@ -44,11 +44,24 @@ Departments: test has 10 per department; val has 8 per department (garbage 6).
 - These labels have been reviewed by Nimitt Malhotra (15 Oct 2026).
 - `location_mentioned` = yes when a specific named place appears (locality, numbered sector/ward/gali, named landmark, PIN code). Set by hand for own and real rows; original values kept for synthetic rows.
 
+## Borderline labels
+These rows could reasonably get a different label under the rules. They are kept as labeled, and errors on them should be read with care.
+
+| id | split | department | urgency | Why borderline |
+|---|---|---|---|---|
+| U49 | test | police | high | urgency judgement (Rules 1-15), to be re-checked in the label self-check |
+| U61 | test | roads | medium | urgency judgement, to be re-checked |
+| U66 | test | garbage | medium | urgency judgement, to be re-checked |
+| real083 | test | health | medium | urgency judgement, to be re-checked |
+| real107 | test | other | high | urgency judgement, to be re-checked |
+| real091 | train | pension_govt | low | multi-issue complaint: birth certificate delay (pension_govt, Rule 6) and rude hospital staff (health, Rule 15); labeled by the main issue |
+
 ## Known limitations
 - Small evaluation sets: 10 test rows per department means one mistake moves that department's recall by 10 points. Report bootstrap 95% confidence intervals with every F1 score.
 - Only 4 Hindi (Devanagari) rows are in val + test, so Hindi performance cannot be measured reliably.
 - Real complaints are mostly formal English and many are cut off by the website (they end in "..."). The `[name]`, `[phone]`, `[protected]` markers are redactions and are kept on purpose.
 - Garbage has no own or real rows in train; the model learns garbage only from synthetic data.
+- Length shift: train complaints average 23 words (median 17) because 391 of 506 rows are short synthetic texts (median 16), while val averages 48 words (real_public median 61.5). Models trained on short template text may do worse on long, messy real complaints (src/eda_train.py).
 - The synthetic data was generated from about 85 templates (`src/make_synthetic_data.py`), so many rows are near-paraphrases of each other. They are all in train. Accuracy measured on synthetic rows will be optimistic.
 - 41 real complaints appear in train twice: the English original and its Hinglish translation (`source = real_translated`). Do not run k-fold cross-validation on train, because a fold could hold the original while another fold holds its translation. Tune on `val.csv` only. Whether the translations help is an open question to be tested with an ablation (train with and without them).
 

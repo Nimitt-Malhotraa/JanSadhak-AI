@@ -1,12 +1,3 @@
-"""Generate synthetic labeled complaints for JanSadhak AI.
-
-Labels are NOT guessed per row. Every scenario below encodes one situation and its
-urgency is computed from the facts (days pending, injury yes/no, ...) using
-docs/labeling_rules.md. So the labels stay consistent with the rules.
-
-Usage:  python make_synthetic_data.py <existing_cdi_labeled.csv> <output.csv>
-Seeded, so the same command always gives the same file.
-"""
 import random
 import sys
 import pandas as pd
@@ -14,7 +5,6 @@ import pandas as pd
 rng = random.Random(42)
 ri = rng.randint
 
-# ---------- helpers ----------
 UNITS = {
     "en": {"day": ("day", "days"), "hour": ("hour", "hours"), "month": ("month", "months"), "week": ("week", "weeks")},
     "hg": {"day": ("din", "din"), "hour": ("ghanta", "ghante"), "month": ("mahina", "mahine"), "week": ("hafta", "hafte")},
@@ -39,7 +29,7 @@ LOC_HI = ["सेक्टर 14", "गांधी नगर", "वार्ड
           "बस स्टैंड के पास", "तिलक नगर", "आनंद विहार", "सेक्टर 9", "वार्ड 21", "भगत सिंह कॉलोनी"]
 assert len(LOC_EN) == len(LOC_HI)
 
-SCEN = []  # (dept, weight, sampler, templates)
+SCEN = []
 
 
 def S(dept, weight, sampler, en, hg, hi):
@@ -58,7 +48,6 @@ def with_n(lo, hi, unit, u, **extra):
     return f
 
 
-# ---------- ELECTRICITY ----------
 S("electricity", 4, with_n(1, 3, "day", "low"),
   ["One streetlight in our lane has not been working for {d}, please replace the bulb",
    "The streetlight near my house is off since {d}. Kindly get it fixed",
@@ -147,7 +136,6 @@ S("electricity", 2, with_n(3, 20, "day", "medium"),
    "{d} se roz shaam ko low voltage rehta hai, fan aur tubelight theek se nahi chalte"],
   ["हमारे इलाके में {d} से वोल्टेज ऊपर-नीचे हो रहा है, फ्रिज और टीवी खराब होने लगे हैं"])
 
-# ---------- WATER_SEWAGE ----------
 S("water_sewage", 5, with_n(6, 20, "hour", "medium"),
   ["No water supply in our area for the last {d}",
    "Water has not come since morning, almost {d} now, we have nothing for cooking",
@@ -233,7 +221,6 @@ S("water_sewage", 2, with_n(2, 5, "day", "medium"),
    "Gali mein barish ka paani {d} se nikal nahi raha, talaab ban gaya hai"],
   ["बारिश के बाद सड़क पर बहुत पानी भर गया है, गाड़ियां फंस रही हैं"])
 
-# ---------- ROADS ----------
 S("roads", 8, fixed("low"),
   ["There is a big pothole on our road, please repair when possible",
    "A pothole has formed in front of the bus stop. No accident so far, just needs repair",
@@ -323,7 +310,6 @@ S("roads", 5, fixed("medium"),
    "Poori gali mein tar nahi bacha, sirf patthar aur mitti hai, gaadiyon ko double time lagta hai"],
   ["पूरी सड़क टूटी हुई है, पत्थर बिखरे हैं, गाड़ियां बहुत धीरे निकलती हैं"])
 
-# ---------- GARBAGE ----------
 S("garbage", 6, with_n(1, 2, "day", "low"),
   ["Garbage truck has not visited for {d}, a small pile is forming",
    "Waste has not been collected from our lane for {d}",
@@ -388,7 +374,6 @@ S("garbage", 4, fixed("low"),
    "Kachra gadi der se aati hai, timing subah ki kar sakte hain kya"],
   ["बस स्टॉप के पास एक डस्टबिन लगवा दें, लोग जमीन पर कचरा फेंकते हैं"])
 
-# ---------- POLICE ----------
 S("police", 6, fixed("medium"),
   ["My bike was stolen from outside my house last night, no CCTV in the lane",
    "Phone snatched near the bus stop yesterday evening, I want to register a complaint",
@@ -462,7 +447,6 @@ S("police", 3, fixed("medium"),
    "Kal raat do groups mein ladai hui aur dukaan ka sheesha tod diya, action lo"],
   ["कल शाम हमारी सड़क पर चेन स्नैचिंग हुई, पुलिस अभी तक नहीं आई"])
 
-# ---------- HEALTH ----------
 S("health", 5, with_n(2, 10, "day", "medium"),
   ["The doctor has not come to the dispensary for {d}, patients are going back",
    "PHC has no doctor for {d}, only a compounder gives medicines"],
@@ -528,7 +512,6 @@ S("health", 2, fixed("low"),
    "Is mahine free health checkup camp kahan lag raha hai bata dijiye"],
   ["हमारे वार्ड में बच्चों का अगला टीकाकरण शिविर कब है"])
 
-# ---------- PENSION_GOVT ----------
 S("pension_govt", 3, with_n(4, 10, "month", "high"),
   ["My old age pension has not come for {d}, I depend on it for medicines and food",
    "Old age pension is stopped since {d}, I have no other income"],
@@ -584,7 +567,6 @@ S("pension_govt", 2, with_n(4, 9, "month", "high"),
    "Zameen ke record ki correction {d} se ruki hai, officer har baar agle hafte bulate hain"],
   ["संपत्ति म्यूटेशन की फाइल {d} से नगर निगम कार्यालय में अटकी है, मैं घर नहीं बेच पा रहा"])
 
-# ---------- OTHER ----------
 S("other", 4, fixed("low"),
   ["There are too many stray dogs in our street",
    "Please do something about the stray dogs near the market",
@@ -650,7 +632,6 @@ S("other", 3, fixed("low"),
    "Help chahiye, mohalle mein ek issue hai"],
   ["हमारे इलाके में समस्या है, कृपया देखें"])
 
-# ---------- how many rows per department (new rows only) ----------
 QUOTA = {"roads": 70, "garbage": 60, "police": 55, "water_sewage": 46,
          "health": 40, "electricity": 36, "pension_govt": 34, "other": 29}
 N_HINDI = 40
@@ -667,7 +648,7 @@ def allocate(total, weights):
     return out
 
 
-slots = []  # (dept, sampler, templates)
+slots = []
 for dept, q in QUOTA.items():
     sc = [s for s in SCEN if s[0] == dept]
     for (d, w, sampler, tpl), k in zip(sc, allocate(q, [s[1] for s in sc])):
@@ -676,7 +657,6 @@ for dept, q in QUOTA.items():
 assert len(slots) == sum(QUOTA.values())
 rng.shuffle(slots)
 
-# language assignment: exact counts
 n = len(slots)
 n_hi = N_HINDI
 n_en = round((n - n_hi) * 105 / 330)
@@ -716,7 +696,7 @@ for (dept, sampler, tpl), lang in zip(slots, langs):
         if rng.random() < 0.12:
             op = rng.choice(["Sir, ", "Dear sir, ", "Hello, "] if lang == "en" else ["Sir, ", "Bhaiya ", "Namaste, "])
             text = op + text[0].lower() + text[1:]
-        if urg in ("low", "medium") and rng.random() < 0.07:   # Rule 3: loud tone, same label
+        if urg in ("low", "medium") and rng.random() < 0.07:
             if rng.random() < 0.5:
                 text = text.upper() + "!!!"
             else:
