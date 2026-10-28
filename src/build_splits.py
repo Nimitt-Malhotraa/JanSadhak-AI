@@ -1,7 +1,6 @@
 import collections, csv, html, os, random, re
 
-HOME = os.environ.get("HOME", ".")
-ROOT = os.environ.get("JANSADHAK_ROOT", f"{HOME}/mnt/JanSadhak-AI")
+ROOT = os.environ.get("JANSADHAK_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SEED = 42
 TEST_PER_CLASS, VAL_PER_CLASS, OWN_TRAIN_TOTAL = 10, 8, 10
 NEAR_DUP = 0.6
